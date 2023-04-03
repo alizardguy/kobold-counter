@@ -19,6 +19,8 @@ console.log(koboldSets + " kobolds");
 
 /* get elements */
 var koboldCount = document.getElementById("koboldCount");
+var dayTotal = document.getElementById("dayTotal");
 
 /* write elements */
 koboldCount.textContent = koboldSets + " kobolds";
+dayTotal.textContent = "[" + differenceInDays + " days]";
