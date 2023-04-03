@@ -1,0 +1,18 @@
+html, body, .container {
+    height: 100%;
+}
+
+.counter{
+    vertical-align: middle;
+    text-align: center;
+    align-items:  center;
+    justify-content:center;
+    display: flex;
+    position: relative;
+    padding-top: 25%;
+    font-size: xx-large
+}
+
+main{
+    margin: 10px;
+}
