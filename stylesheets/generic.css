@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'SignikaNegative';
+}
+
+.noSelect{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+body{
+    background-color: #08383a;
+}
+
+main{
+    color: white;
+}
+
+html, body { height: 100%;}
+
+@font-face {
+    font-family: SignikaNegative;
+    src: url(../assets/fonts/SignikaNegative-VariableFont_wght.ttf);
+  }
