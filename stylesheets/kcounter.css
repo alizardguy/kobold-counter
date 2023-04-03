@@ -9,7 +9,7 @@ html, body, .container {
     justify-content:center;
     display: flex;
     position: relative;
-    padding-top: 25%;
+    padding-top: 35vh;
     font-size: xx-large
 }
 
