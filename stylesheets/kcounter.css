@@ -1,14 +1,7 @@
-html, body, .container {
-    height: 100%;
-}
-
 .counter{
-    vertical-align: middle;
+
     text-align: center;
-    align-items:  center;
-    justify-content:center;
-    display: flex;
-    position: relative;
+    align-items:  center; 
     padding-top: 35vh;
     font-size: xx-large
 }
