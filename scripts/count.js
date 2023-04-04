@@ -11,7 +11,7 @@ var koboldSets = differenceInDays / 11;
 
 /* floor values */
 differenceInDays = Math.floor(differenceInDays);
-koboldSets = Math.floor(koboldSets);
+koboldSets = Math.floor(koboldSets) + 1;
 
 /* debug output values */
 console.log(differenceInDays + " days");
