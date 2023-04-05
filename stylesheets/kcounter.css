@@ -9,3 +9,12 @@
 main{
     margin: 10px;
 }
+
+footer{
+    color: white;
+    text-decoration:none;
+}
+
+footer a{
+    color: inherit;
+}
