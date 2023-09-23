@@ -18,9 +18,9 @@ console.log(differenceInDays + " days");
 console.log(koboldSets + " legacy kobolds");
 
 /* get elements */
-var koboldCount = document.getElementById("neosKoboldCount");
-var dayTotal = document.getElementById("dayTotal");
+var neosKoboldCount = document.getElementById("neosKoboldCount");
+var neoDayTotal = document.getElementById("neosDayTotal");
 
 /* write elements */
-koboldCount.textContent = koboldSets + " legacy kobolds";
-dayTotal.textContent = "[" + differenceInDays + " days]";
+neosKoboldCount.textContent = koboldSets + " legacy kobolds";
+neoDayTotal.textContent = differenceInDays + " days since I've started Neos";

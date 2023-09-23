@@ -18,3 +18,10 @@ footer{
 footer a{
     color: inherit;
 }
+
+.smallText{
+    font-size: small;
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
