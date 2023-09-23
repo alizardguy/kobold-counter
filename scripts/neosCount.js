@@ -15,12 +15,12 @@ koboldSets = Math.floor(koboldSets) + 1;
 
 /* debug output values */
 console.log(differenceInDays + " days");
-console.log(koboldSets + " kobolds");
+console.log(koboldSets + " legacy kobolds");
 
 /* get elements */
-var koboldCount = document.getElementById("koboldCount");
+var koboldCount = document.getElementById("neosKoboldCount");
 var dayTotal = document.getElementById("dayTotal");
 
 /* write elements */
-koboldCount.textContent = koboldSets + " kobolds";
+koboldCount.textContent = koboldSets + " legacy kobolds";
 dayTotal.textContent = "[" + differenceInDays + " days]";
