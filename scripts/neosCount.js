@@ -27,14 +27,13 @@ console.log(resoKoboldSets + " legacy kobolds");
 
 /* get elements */
 var neosKoboldCount = document.getElementById("neosKoboldCount");
-var neoDayTotal = document.getElementById("neosDayTotal");
+var neosDayTotal = document.getElementById("neosDayTotal");
 
 var resoKoboldCount = document.getElementById("koboldCount");
 var resoDayTotal = document.getElementById("dayTotal");
 
 /* write elements */
-neosKoboldCount.textContent = neosKoboldSets + " legacy kobolds";
-neoDayTotal.textContent = neosDifferenceInDays + " days since I've started Neos";
+neosDayTotal.textContent = neosDifferenceInDays + " days since I've started Neos";
 
 resoKoboldCount.textContent = resoKoboldSets + " kobolds";
 resoDayTotal.textContent = resoDifferenceInDays + " days since I've started Resonite";
